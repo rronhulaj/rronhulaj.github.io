@@ -33,6 +33,9 @@ button:hover {
     width: 41rem;
     height: 36rem !important;
 }
+.card {
+    border-radius: 1rem;
+}
 .card svg {
     height: 220px;
     width: 269;

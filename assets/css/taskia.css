@@ -19,7 +19,7 @@ small{
 }
 button {
     border-radius: 25px !important;
-    height: 3rem !important;
+    height: 4.4rem !important;
     width: 15rem;
     font-size: 1.5rem !important;
     font-weight: 700 !important;
@@ -28,8 +28,9 @@ button:hover {
     background-color: white !important;
     color: #525ffb !important;
 }
+
 .imagebig {
-    width: 40rem;
+    width: 41rem;
     height: 36rem !important;
 }
 .card svg {
@@ -70,7 +71,9 @@ button:hover {
 }
 .firstdivsearch {
     width: 34rem !important;
-    height: 3rem;
+    height: 4.4rem;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
     border-radius: 25px;
 }
 small {
@@ -96,8 +99,8 @@ small {
 }
 .fifthdiv {
     position: relative;
-    margin: 12rem 0 !important;
-    height: 40vh;
+    margin: 6rem 0!important;
+    min-height: 40rem;
     width: 100%;
   }
 .fifthdiv p{
@@ -150,7 +153,7 @@ small {
     margin: 20rem 0rem 0 60rem;
 }
 .sixthdiv {
-    margin: 12rem 0!important;
+    margin: 6rem 0!important;
 }
 
 .rotate {
@@ -218,11 +221,15 @@ to {
   font-size: 7.3rem;
 }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     html {
-        font-size: 50%;
+        font-size: 50% !important;
+    }  
+}
+@media screen and (max-width: 992px) {
+    .firstdivsearch {
+        width: 22rem !important;
     }
-     
 }
 @media only screen and (max-width: 600px) {
     html {
@@ -230,8 +237,6 @@ to {
     }
     .firstdivsearch {
         width: 25rem !important;
-        height: 3rem;
-        border-radius: 25px;
     }
     .firstdiv button,
     .lastdiv button {
@@ -241,6 +246,11 @@ to {
         width: 5rem !important;
         height: 4rem !important;
         border-radius: 5px !important;
+    }
+    .paraimagebig {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .minifoto1 img{
         margin: 1rem 0rem 0 3rem;
@@ -255,7 +265,7 @@ to {
         margin: 2rem 0rem 0 37rem;
     }
     .minifoto5 img{
-        margin: 15rem 0rem 0 42rem;
+        margin: 15rem 0rem 0 39rem;
     }
     .minifoto6 img{
         margin: 24rem 0rem 0 35rem;
